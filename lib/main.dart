@@ -79,6 +79,11 @@ class LoginPage extends StatelessWidget {
               decoration: InputDecoration(labelText: 'Enter your ID'),
             ),
             SizedBox(height: 20),
+            TextField(
+              obscureText: true,
+              decoration: InputDecoration(labelText: 'Enter your Password'),
+            ),
+            SizedBox(height: 20),
             ElevatedButton(
               onPressed: () => _login(context),
               child: Text('Login'),
